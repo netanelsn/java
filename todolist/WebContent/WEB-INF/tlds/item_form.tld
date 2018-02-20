@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+		    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+		    http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+		    version="2.0">
+ 		<tlib-version>1.0</tlib-version>
+ 		<short-name>mytaglib</short-name>
+ 		<tag>
+ 			<description>My Attributes tag</description>
+ 			<name>editform</name>
+ 			<tag-class>com.hit.tags.editItem</tag-class>
+ 			<body-content>empty</body-content>
+			<attribute>
+				<description>Item ID</description>
+				<name>id</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>
+			<attribute>
+				<description>Member ID</description>
+				<name>memberId</name>
+				<required>false</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>
+ 			<attribute>
+				<description>Task</description>
+				<name>content</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>
+ 			<attribute>
+				<description>Task Title</description>
+				<name>title</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>
+ 			<attribute>
+				<description>Task Deadline Time</description>
+				<name>dateTime</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>
+ 			<attribute>
+				<description>Task Status</description>
+				<name>status</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue> 
+ 			</attribute>	
+ 		</tag>
+</taglib>
